@@ -26,8 +26,7 @@ button {
 
 button {
   transition: background .3s ease-in,
-              transform .2s .1s ease-in-out,
-              border-radius .3s ease-in;
+              transform .2s .1s ease-in-out;
 }
 
 button:hover {
