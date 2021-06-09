@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  	font-family: 'Lato', sans-serif;
+	background: #353535;
+  margin-top:6rem;
+  display: flex;
+}
+
+
+button {
+  border: 3px solid #AEA8D3;
+  margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+  background:#353535;
+  width:200px;
+	font-size:1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
