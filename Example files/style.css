@@ -1,0 +1,19 @@
+
+@keyframes move {
+ 0% {transform:translateX(0);}
+ 100% {transform: translateX(900px);}
+}
+
+.robot {
+  animation-name: move;
+  animation-duration: 3s;
+}
+
+/*------ other styles ---*/
+
+body {
+  margin:3em;
+  background-color: #433F55;
+}
+
+img {width: 100px;}
