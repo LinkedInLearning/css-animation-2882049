@@ -1,0 +1,18 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top:3em;
+  background-color: #6F7295;
+  perspective: 1000px;
+}
+
+.wrap {
+  width: 100%;
+}
+
+img {width: 300px;}
+
+
+
+
