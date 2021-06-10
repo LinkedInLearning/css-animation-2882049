@@ -1,0 +1,33 @@
+
+.cloud01 {
+
+}
+
+.cloud02 {
+  
+}
+
+
+/* Other styles  */
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.wrap {
+  width: 800px;
+  height: 650px;
+  overflow: hidden;
+  position:relative;
+}
+
+.city, .cloud {position:absolute;}
+
+.city {z-index:100;}
+
+.cloud02 {top:76px;}
+.cloud01 {top:30px;}
+
+img.cloud {width:150px;}
+.city img {width: 100%;}
