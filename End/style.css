@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
+
+
+:root {
+  --dist: 0%;
+  --scale: 2;
+  --deg: 10deg;
+  --dur: 2s;
+  --delay: 0s;
+  --ease: linear;
+}
+
+p {
+  animation: moveIn var(--dur) var(--delay) var(--ease) both;
+  margin:0.75rem 0;
+}
+
+@keyframes moveIn {
+  0% {
+    transform: translateX(-325%) scale(1) rotate(0deg);
+  }
+  100% {
+    transform: translateX(var(--dist)) scale(var(--scale)) rotate(var(--deg));
+  }
+}
+
+p:nth-of-type(1) { 
+  --scale:1.75;
+  --dist: 80%;
+  --deg:5deg;
+  --dur: 1.9s;
+  --ease: cubic-bezier(0.22,1,0.36,1);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+p:nth-of-type(2) {
+  --scale:1.5;
+  --dist: 30%;
+  --delay: 0.5s;
+  --ease:cubic-bezier(0.34, 1.56, 0.64, 1);
+  color: #59C3C3;
+}
+
+p:nth-of-type(3) {
+  --deg: -5deg;
+  --dist: 100%;
+  --ease:cubic-bezier(0.25, 1, 0.5, 1);
+  color: #fbacbe;
+}
+
+p:nth-of-type(4) {
+  --scale:1.9;
+  --deg:15deg;
+  --ease: cubic-bezier(0.7, 0, 0.84, 0);
+  margin-top: 1em;
+  color: #DCF2B0;
+}
+
+body {
+  background: #433F55;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-size:3.5rem;
+  font-weight: 700;
+  padding-top: 8rem;
+  display:flex;
+  justify-content: center;
+  overflow:hidden;
+}
+
+
