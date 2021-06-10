@@ -1,0 +1,17 @@
+.bot {
+  width:100px;
+  offset-path: path('M.542,219.99c540.71,0,477.005-218.911,277.995-218.37S7.081,219.99,539.573,219.99');
+}
+
+/* other styles */
+.wrap {
+  width:800px;
+}
+
+
+body {
+  margin:8em 0 0 0;
+  background:#433f55;
+  display: flex;
+  justify-content: center; 
+}
