@@ -1,13 +1,35 @@
 
-@keyframes move {
- 0% {transform:translateX(0);}
- 100% {transform: translateX(900px);}
-}
-
 .robot {
   animation-name: move;
   animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:3;
+  animation-direction: alternate-reverse;
 }
+
+@keyframes move {
+  100% {
+    transform: translateX(700%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------ other styles ---*/
 
@@ -17,3 +39,4 @@ body {
 }
 
 img {width: 100px;}
+
