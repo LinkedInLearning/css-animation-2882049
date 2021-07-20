@@ -4,7 +4,10 @@ body {
   justify-content: center;
   margin-top:3em;
   background-color: #6F7295;
-  perspective: 1000px;
+}
+
+.robot {
+
 }
 
 .wrap {
