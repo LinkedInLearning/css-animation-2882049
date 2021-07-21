@@ -1,9 +1,11 @@
 .sticker {
-
+  animation: rotate 10s linear infinite;
 }
 
-.sticker:hover {
- 
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* other styles */
