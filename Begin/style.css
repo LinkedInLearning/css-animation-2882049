@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
 
-@keyframes blinking {
-  0%, 100% {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #CE2D4F;
-    }
-}
 
 h1 {
   color: #433F55;
@@ -19,6 +11,17 @@ h1 {
   margin: 0 auto; 
   letter-spacing: .15em; 
 }
+
+
+@keyframes blinking {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #CE2D4F;
+    }
+}
+
 
 body {
   padding-top: 5em;
