@@ -6,6 +6,7 @@
   100% {transform:scale(1);}
 }
 
+
 h2 {
   font-size: 10rem;
   font-family: "Fira Sans", sans-serif;
@@ -13,6 +14,8 @@ h2 {
   text-shadow: 3px 3px 0px #59C3C3;
   animation-name: scaleIn;
   animation-duration: 2s;
+  animation-delay: 5s;
+  animation-fill-mode: backwards;
 }
 
 .wrap {
