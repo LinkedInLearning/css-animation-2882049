@@ -4,12 +4,13 @@
 
 
 p {
+  animation: moveIn 2s linear both;
   margin:0.75rem 0;
 }
 
 @keyframes moveIn {
   0% {
-    transform: translateX(-200%) scale(1);
+    transform: translateX(-325%) scale(1) rotate(0deg);
   }
   100% {
     transform: translateX(500px) scale(1.5)rotate(10deg);
