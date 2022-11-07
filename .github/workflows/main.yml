@@ -9,6 +9,6 @@ jobs:
         with:
           fetch-depth: 0
       - name: Copy To Branches Action
-        uses: smoser-LiL/copy-to-branches-sjm
+        uses: smoser-LiL/copy-to-branches-sjm@v1
         env:
           key: main
