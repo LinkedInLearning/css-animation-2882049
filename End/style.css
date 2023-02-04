@@ -27,10 +27,14 @@ button {
 button {
   transition: background .3s ease-in,
               transform .2s .1s ease-in-out;
+
+              /* 1st the transformation of background color will take place in .2 sec  then 
+              the of the button is  by .1s after the change of background color of the 
+              button */
 }
 
 button:hover {
-  transform: scale(1.3);
+  transform: scale(1.3); /* increase sizo of button*/
   background:#AEA8D3;
   color: #353535;
 }
