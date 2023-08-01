@@ -1,0 +1,37 @@
+body {
+  background-color:skyblue;
+  perspective: 1000px; /* This property is used for transform 3d example. */
+}
+
+/* Transform Basics */
+.container-1 {
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  transform: translate(500px, 200px) scale(1.3) rotate(45deg); 
+  /* the order of the values of the transform property affects the end result. */
+}
+
+/* Transform 3D */
+
+.container-2 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  transform: translateX(100px) rotateX(45deg) rotateY(20deg);
+  /* transform: translate3d(100px, 300px, -100px); */
+}
+
+/* Transition */
+
+button {
+  padding: 10px 20px;
+  margin-left: 60rem;
+  transition: background .5s ease-in, transform .2s .1s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.3);
+  background-color: coral;
+}
